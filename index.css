@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+}
+.navbar {
+    background: rgb(0, 0, 0);
+   font-family: "Times New Roman", Times, serif;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    
+}
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.navdiv li {
+    list-style-type: none;
+    display:contents;
+}
+
+.logo {
+    padding-top: 13px;
+}
+.logo a{
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    color: antiquewhite;
+   
+}
+
+
+
+li a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold; 
+    margin-right: 25px;
+}
+
+.nav-links {
+    margin-left: auto;
+    padding-top: 13px;
+    
+}
+html, body {
+    height: 100%;
+    margin: 0;
+}
+ body {
+        
+        background-image: url(background.beyonddarkmatter\ \(1\).png);
+        background-repeat:no-repeat;
+        background-size: cover;
+        background-position: top;
+}
+.quote {
+    position:absolute;
+    top:26%;
+    right: 32%;
+    color:bisque;
+    padding: 20px;
+    font-family: 'Lucida Sans';
+    font-size:x-large;
+    
+}
+.quote {
+    color: white;
+    text-shadow:
+        0 0 5px rgba(255,255,255,0.6),
+        0 0 15px rgba(173,216,230,0.5),
+        0 0 30px rgba(173,216,230,0.3);
+}
+.scroll4 {
+     position:absolute;    
+    top:80%;
+    right: 90%;
+    color:whitesmoke;
+    padding: 20px;
+    font-family: 'Lucida Sans';
+    font-size:small;      
+}
+html, body {
+    min-height: 400vh;
+    overflow-y: auto;
+}
+
+.about-heading {
+    position:absolute;
+    bottom: -290px;
+    right: 65%;
+    color: bisque;
+    text-shadow:
+        0 0 5px rgba(255,255,255,0.6),
+        0 0 15px rgba(173,216,230,0.5),
+        0 0 30px rgba(173,216,230,0.3);
+    padding: 20px;
+    font-family: 'Lucida Sans';
+    font-size: xx-large;
+    opacity: 90%;
+}
+.About1-title {
+     position: absolute;
+    bottom: -400px;
+    right: 57%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style:italic;
+    color: wheat;
+}
+.about-info {
+    position: absolute;
+    right: 52%; 
+    bottom: -500px;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    max-width: 600px;
+    text-align: center;
+    font-size: large;
+}
+.about-info2 {
+     position: absolute;
+    right: 52%; 
+    bottom: -590px;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    max-width: 600px;
+    text-align: center;
+    font-size: large;
+}
+.about-bye {
+    position: absolute;
+    right: 52%; 
+    bottom: -620px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(131, 255, 224);
+    max-width: 600px;
+    text-align: center;
+    font-size: medium;
+}
+.questions-title {
+    position: absolute;
+    right: 20%; 
+    bottom: -980px;
+    font-family:'Lucida Sans';
+    font-style: bold;
+    max-width: 600px;
+    text-align: center;
+    font-size: x-large;
+    opacity: 90%;
+    color: bisque;
+    text-shadow:
+        0 0 5px rgba(255,255,255,0.6),
+        0 0 15px rgba(173,216,230,0.5),
+        0 0 30px rgba(173,216,230,0.3);
+}
+
+.questions {
+   list-style-type: disc;
+    position: absolute;
+    right: 15%; 
+    bottom: -1950px;
+    max-width: 800px;
+     font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: xx-large;
+    color: whitesmoke;
+
+
+
+}
